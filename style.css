@@ -1,0 +1,65 @@
+/* Default */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    transition: background 0.5s ease;
+}
+input{
+    border: none;
+    font-size: larger;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 5px;
+    margin:6px;
+}
+button{
+    border-radius: 5px;
+    background-color: #19a88e;
+    border:none;
+    padding:8px 15px;
+    font-size: medium;
+    font-family: cursive;
+}
+button:hover{
+    background-color: #3aeccc;
+}
+.weather-container{
+    padding: 20px;
+    width: 300px;
+    color: black;
+    background: transparent;
+    text-align: center;
+    border-radius: 10px;
+    font-family: cursive;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgb(red, green, blue);
+}
+/* Weather-based backgrounds */
+.clear {
+    background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+.rain {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.clouds {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.snow {
+    background: linear-gradient(to right, #e6dada, #274046);
+}
+
+.thunderstorm {
+    background: linear-gradient(to right, #232526, #414345);
+}
+
+.mist {
+    background: linear-gradient(to right, #606c88, #3f4c6b);
+}
